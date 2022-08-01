@@ -1,0 +1,76 @@
+.striped {
+    background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+}
+
+.stacked-linear {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.conic-gradient {
+    background: conic-gradient(at 0% 30%, red 10%, yellow 30%, blue 50%);
+}
+
+.amulti-repeating-linear {
+    background:
+        repeating-linear-gradient(190deg, rgba(205, 180, 21, 0.5) 40px,
+            rgba(255, 200, 221, 0.5) 80px, rgba(255, 175, 204, 0.5) 120px,
+            rgba(189, 224, 254, 0.5) 160px, rgba(162, 210, 255, 0.5) 200px,
+            rgba(208, 244, 222, 0.5) 240px, rgba(94, 84, 142, 0.5) 280px,
+            rgba(58, 12, 163) 300px),
+        repeating-linear-gradient(-190deg, rgba(205, 180, 219, 0.5) 30px,
+            rgba(255, 200, 221, 0.5) 60px, rgba(255, 175, 204, 0.5) 90px,
+            rgba(189, 224, 254, 0.5) 120px, rgba(162, 210, 255, 0.5) 150px,
+            rgba(208, 244, 222, 0.5) 180px, rgba(94, 84, 142, 0.5) 210px,
+            rgba(58, 12, 163, 0.5) 230px),
+        repeating-linear-gradient(23deg, rgb(205, 180, 219) 50px, rgb(255, 200, 221) 100px,
+            rgba(255, 175, 204, 0.5) 150px, rgba(189, 224, 254, 0.5) 200px, rgba(162, 210, 255, 0.5) 250px,
+            rgba(208, 244, 222, 0.5) 300px, rgba(94, 84, 142, 0.5) 350px, rgba(58, 12, 163, 0.5) 370px);
+
+}
+
+.multi-repeating-linear {
+    background:
+        repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+            rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
+            rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+            rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+            rgba(255, 0, 0, 0.5) 300px),
+        repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+            rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+            rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+            rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+            rgba(255, 0, 0, 0.5) 230px),
+        repeating-linear-gradient(23deg, red 50px, orange 100px,
+            yellow 150px, green 200px, blue 250px,
+            indigo 300px, violet 350px, red 370px);
+}
+
+body{
+    color :black;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'kingyo', sans-serif;
+}
+
+button{
+    padding:5px 20px;
+    background-color:darkslategray;
+    border-style:outset;
+    color: aliceblue;
+    font-family:'kingyo', sans-serif;
+
+}
+
+input{
+    height: 20px;
+    font-family: 'kingyo', sans-serif;
+}
+
+@font-face {
+    font-family: 'kingyo';
+    src: url('001Shirokuma-Regular.otf')
+    format('opentype');
+}
